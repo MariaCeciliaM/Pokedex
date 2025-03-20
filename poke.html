@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" href="game.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&family=Righteous&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="stylepoke.css">
+
+</head>
+
+<body>
+    <main>
+        <img src= "#"
+            class="pokemon">
+        <img src="pokedex.png" class="pokedex">
+
+        <h1 class="pokeData">
+            <span class="pokeNum"></span>
+            <span class="pokeName"></span>
+        </h1>
+
+        <form class="form">
+
+            <input type="search" class="input_poke" placeholder="Name or Number" required />
+
+        </form>
+
+        <div class="buttons">
+            <button class="button btnPrev"> &lt; Prev </button>
+            <button class="button btnNext"> Next &gt; </button>
+        </div>
+
+        <div class="Shiny">
+            <button class="btnShiny"> Shiny </button>
+        </div>
+
+
+
+    </main>
+	<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
